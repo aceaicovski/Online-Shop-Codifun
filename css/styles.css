@@ -1,0 +1,68 @@
+.header-main {
+	margin-top: 132px;
+	transition: all 1s;
+}
+
+/* @media only screen and (min-width: 192px) {
+	.header-main {
+		margin-top: 189px;
+		transition: all 1s;
+}
+} */
+@media only screen and (min-width: 576px) {
+	.header-main {
+		margin-top: 160px;
+		transition: all 1s;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.header-main {
+		margin-top: 118px;
+		transition: all 1s;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.header-main {
+		margin-top: 65px;
+		transition: all 1s;
+	}
+}
+
+.intro {
+	background-image: url("../images/intro.jpg");
+	background-size: cover;
+}
+
+.map-container-section {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-container-section iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+/* adaugate */
+.md-form i {
+	background: MistyRose;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.ic i {
+	background: MistyRose;
+	padding: 15px;
+	border-radius: 100%;
+}
+.navmenu {
+	display: flex;
+	align-items: center;
+}
